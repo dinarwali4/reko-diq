@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="RegenX.eco satellite mapping of the Reko Diq porphyry copper-gold alteration halo. Prepared by Dinar Wali.">
+<style>*{box-sizing:border-box}body{margin:0}img{max-width:100%}</style>
+<title>Reko Diq Alteration Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+:root{--paper:#f4f1ec;--panel:#e9e3da;--ink:#211b15;--muted:#655a4e;--rule:#d3c9bc;--cu:#b5621d;--phy:#d9771a;--arg:#a73aa7;--cap:#a88a00;--green:#2f6b4f;
+--display:"Archivo","Arial Narrow",Arial,sans-serif;--body:"Source Serif 4",Georgia,serif;--mono:"JetBrains Mono",ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--paper:#17130f;--panel:#231d17;--ink:#ece6de;--muted:#a89c8f;--rule:#3a3129;--cu:#e39a5c;--phy:#f0a050;--arg:#d98ad9;--cap:#e0c440;--green:#7cc39c;color-scheme:dark}}
+:root[data-theme="dark"]{--paper:#17130f;--panel:#231d17;--ink:#ece6de;--muted:#a89c8f;--rule:#3a3129;--cu:#e39a5c;--phy:#f0a050;--arg:#d98ad9;--cap:#e0c440;--green:#7cc39c;color-scheme:dark}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+.wrap{max-width:1140px;margin:0 auto;padding-inline:20px;padding-block:0 80px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);border-bottom:1px solid var(--rule);display:flex;gap:18px;overflow-x:auto;padding:10px 20px;font-family:var(--display);font-stretch:85%;font-size:.9rem;white-space:nowrap}
+nav a{color:var(--muted);text-decoration:none} nav a:hover,nav a:focus{color:var(--cu)}
+.col{max-width:70ch}
+h1,h2,h3{font-family:var(--display);font-stretch:80%;line-height:1.1;text-wrap:balance;margin:0}
+h1{font-size:clamp(2.2rem,5vw,3.5rem);font-weight:800} h1 span{color:var(--cu)}
+h2{font-size:1.7rem;font-weight:750;margin-top:56px;padding-top:18px;border-top:2px solid var(--ink);scroll-margin-top:60px}
+h3{font-size:1.15rem;font-weight:700;margin-top:26px}
+.eyebrow{font-family:var(--mono);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+header{padding-top:36px}.lede{font-size:1.18rem;margin-top:12px}
+.byline{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:14px;font-family:var(--mono);font-size:.82rem;color:var(--muted)}.byline b{color:var(--ink);font-weight:600}
+p{margin:12px 0} a{color:var(--green)}
+.coords{font-family:var(--mono);font-size:.85rem;font-variant-numeric:tabular-nums}
+.verdict{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:26px}
+.verdict div{border-top:4px solid var(--rule);padding-top:10px}.verdict .k{font-family:var(--display);font-stretch:80%;font-weight:700;font-size:1.05rem}
+.v1{border-color:var(--phy)!important}.v2{border-color:var(--green)!important}.v3{border-color:var(--cu)!important}
+figure{margin:22px 0} figure img{display:block;width:100%;border:1px solid var(--rule)}
+figcaption{font-size:.88rem;color:var(--muted);margin-top:8px;max-width:92ch}
+.tw{overflow-x:auto;margin:16px 0}
+table{border-collapse:collapse;font-size:.88rem;min-width:680px;width:100%}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-family:var(--display);font-stretch:85%;font-weight:700;font-size:.8rem;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+th button{all:unset;cursor:pointer} th button:focus-visible{outline:2px solid var(--cu)}
+td.n{text-align:right;font-family:var(--mono);font-size:.82rem;font-variant-numeric:tabular-nums}
+.pill{font-family:var(--mono);font-size:.72rem;padding:1px 7px;border:1px solid currentColor;border-radius:3px;white-space:nowrap}
+.p-phy{color:var(--phy)}.p-arg{color:var(--arg)}.p-cap{color:var(--cap)}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0}
+.controls button{font-family:var(--display);font-stretch:85%;font-size:.85rem;border:1px solid var(--rule);background:var(--panel);color:var(--ink);padding:5px 12px;border-radius:4px;cursor:pointer}
+.controls button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.copy{font-family:var(--mono);font-size:.72rem;border:1px solid var(--rule);background:transparent;color:var(--muted);border-radius:3px;padding:0 6px;cursor:pointer}
+.compare{position:relative;max-width:100%;overflow:hidden;border:1px solid var(--rule);aspect-ratio:2398/1522;background:#000;user-select:none;touch-action:none}
+.compare img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0}
+.compare .top{clip-path:inset(0 0 0 var(--x,50%))}
+.compare .bar{position:absolute;top:0;bottom:0;left:var(--x,50%);width:3px;background:#fff;box-shadow:0 0 0 1px #0006;transform:translateX(-1px)}
+.compare .tag{position:absolute;bottom:10px;font-family:var(--mono);font-size:.72rem;background:#000a;color:#fff;padding:2px 7px}
+.compare input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0}
+.note{background:var(--panel);padding:14px 18px;margin:20px 0;max-width:82ch}.note b{font-family:var(--display);font-stretch:85%}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:22px}
+.contact{background:var(--panel);padding:18px 20px;display:grid;gap:10px;max-width:760px}
+.contact .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.contact code{font-family:var(--mono);font-size:.9rem;user-select:all}
+.bio{font-size:.95rem;border-left:3px solid var(--cu);padding-left:14px;margin:4px 0}
+ol.refs{font-size:.88rem;padding-left:20px} ol.refs li{margin:6px 0}
+</style>
+
+</head>
+<body>
+<nav aria-label="Sections"><a href="#summary">Summary</a><a href="#imagery">Imagery</a><a href="#history">History</a><a href="#zones">Zones</a><a href="#evidence">Evidence</a><a href="#validation">Validation</a><a href="#construction">Construction</a><a href="#context">Context</a><a href="#method">Method</a><a href="#contact">Contact</a></nav>
+<div class="wrap">
+<header class="col" id="summary">
+  <div class="eyebrow">Reko Diq · Chagai District · Balochistan · 28.88–29.06°N, 62.30–62.55°E</div>
+  <h1>Reko Diq <span>copper–gold</span> alteration map</h1>
+  <p class="lede">Satellite mapping of the porphyry alteration footprint at Reko Diq, one of the world's largest undeveloped copper–gold deposits. It uses NASA EMIT hyperspectral data on four dates, ASTER, Sentinel-2, Landsat back to 1990, and Google Earth Pro imagery from 2003 to 2026.</p>
+  <div class="byline"><span><b>RegenX.eco</b> Geospatial Computational Model</span><span>Prepared by <b>Dinar Wali</b></span><span>30 September 2026</span></div>
+</header>
+
+<section class="verdict">
+  <div class="v1"><div class="k">The porphyry halo is mapped from orbit</div>About 1,460 ha of persistent alteration in zones of 6 cells or more. Phyllic sericite covers 1,068 ha, a jarosite leached cap 319 ha, and argillic kaolinite/alunite 77 ha. It concentrates 3–13 km west and north-west of the given point, over the Western Porphyries.</div>
+  <div class="v2"><div class="k">It passes every test</div>0 of 16,000 alluvial control cells qualify. An independent February 2025 pass reproduces 79–87% of each facies against 0.2–0.3% of the control. ASTER from 2000–2003 independently confirms the argillic zones (z +5.4).</div>
+  <div class="v3"><div class="k">Construction is visible, 2025–26</div>Sentinel-2 shows a new airstrip about 1.9 km long at <span class="coords">28.918°N 62.542°E</span>, camp expansion, new ponds and pads, and a new corridor. None appears in 2025 imagery; all appear by mid-2026.</div>
+</section>
+
+<h2 id="imagery">1 · Google Earth Pro imagery, annotated</h2>
+<div class="col"><p>The alteration zones were loaded into Google Earth Pro as a KML and rendered by Earth itself on the Airbus imagery of September 2023, so every outline follows the terrain. The given coordinate <span class="coords">28.972036°N 62.432438°E</span> sits on a low pale hill cluster on the eastern side of the alteration field.</p></div>
+<figure><img src="img/A1_facies_lease_2023-09.jpg" alt="Lease-scale alteration facies in Google Earth"><figcaption>Lease-scale view. Orange: phyllic (sericite). Magenta: argillic (kaolinite/alunite). Yellow: leached cap (jarosite with ferric iron). Labels RZ1–RZ22 are the zones of 10 ha or more.</figcaption></figure>
+<figure><img src="img/A2_facies_west_2023-09.jpg" alt="Western porphyry cluster close-up"><figcaption>The western cluster. The leached caps (RZ3, RZ4) sit inside a broad phyllic ring (RZ2), with argillic patches on its southern and western edges. This zoned pattern is what a porphyry copper system produces.</figcaption></figure>
+
+<h2 id="history">2 · Historical imagery, 2003–2026</h2>
+<div class="controls" role="group" aria-label="Choose epoch pair"><button type="button" data-pair="0" aria-pressed="true">2003 vs 2026</button><button type="button" data-pair="1" aria-pressed="false">2010 vs 2026</button><button type="button" data-pair="2" aria-pressed="false">Given point 2004 vs 2010</button></div>
+<div class="compare" id="cmp" style="--x:50%">
+  <img id="cmpBase" src="img/H1_west_2003-12.jpg" alt="Earlier epoch">
+  <img id="cmpTop" class="top" src="img/H3_west_2026-09.jpg" alt="Later epoch">
+  <div class="bar"></div><span class="tag" id="tagL" style="left:10px">Dec 2003</span><span class="tag" id="tagR" style="right:10px">Sep 2026</span>
+  <input id="cmpRange" type="range" min="0" max="100" value="50" aria-label="Compare slider">
+</div>
+<figure><img src="img/history_panel.jpg" alt="Four historical epochs of the western porphyries"><figcaption>The same frame in December 2003, August 2010 and the September 2026 mosaic, with the September 2023 base. Exploration tracks and drill pads thicken between 2003 and 2010. Google Earth has no high-resolution capture of the 2025–26 construction over the pits yet, so that part of the record comes from Sentinel-2 (§6).</figcaption></figure>
+
+<h2 id="zones">3 · Ranked alteration zones</h2>
+<div class="col"><p>A cell joins a facies when its absorption is at least 2.5 robust standard deviations above the scene on both the October 2023 and October 2024 EMIT dates. The 2165 nm band marks kaolinite/alunite, 2200 nm sericite, and 2265 nm jarosite plus a ferric-iron band. Coordinates are WGS84 centroids, accurate to about ±60 m. Zones of 5 ha or more are listed.</p></div>
+<div class="controls" role="group" aria-label="Filter"><button type="button" data-f="all" aria-pressed="true">All</button><button type="button" data-f="phyllic" aria-pressed="false">Phyllic</button><button type="button" data-f="argillic" aria-pressed="false">Argillic</button><button type="button" data-f="leached" aria-pressed="false">Leached cap</button><span class="eyebrow" id="zcount"></span></div>
+<div class="tw"><table id="zt"><thead><tr><th><button data-k="id">Zone</button></th><th><button data-k="facies">Facies</button></th><th class="n"><button data-k="area_ha">Area ha</button></th><th class="n">Lat °N</th><th class="n">Lon °E</th><th class="n"><button data-k="elev">Elevation m</button></th><th class="n"><button data-k="dist_given_km">From given point km</button></th><th></th></tr></thead><tbody></tbody></table></div>
+<figure><img src="img/facies_map.jpg" alt="Facies map over EMIT true colour and hillshade"><figcaption>All facies over EMIT true colour and a Copernicus DEM hillshade, with the 2025–26 construction features marked. The dashed box is the alluvial control.</figcaption></figure>
+
+<h2 id="evidence">4 · Spectral evidence</h2>
+<figure><img src="img/spectra.jpg" alt="Continuum-removed SWIR spectra of facies versus control"><figcaption>Continuum-removed EMIT shortwave-infrared spectra. Argillic zones show the kaolinite/alunite doublet near 2165–2205 nm. Phyllic zones show a sharp 2200 nm sericite absorption. Leached-cap zones add a 2265 nm jarosite feature. The alluvial control is flat apart from the 2330 nm carbonate band. The pattern repeats on the independent February 2025 date.</figcaption></figure>
+
+<h2 id="validation">5 · Validation</h2>
+<div class="tw"><table>
+<thead><tr><th>Test</th><th>Result</th></tr></thead>
+<tbody>
+<tr><td>Alluvial control</td><td>0 of 16,000 control cells meet any facies rule.</td></tr>
+<tr><td>Independent date (2 Feb 2025)</td><td>Phyllic 87.4% of zone cells exceed z 2.5 again (control 0.21%). Argillic 81.2% (0.24%). Leached cap 78.7% (0.31%). Median z inside zones 3.4–4.5, against −0.15 to +0.16 on the control.</td></tr>
+<tr><td>ASTER SWIR, 2000–2003 (3 scenes)</td><td>A different sensor 20 years earlier: argillic zones show ASTER kaolinite index z +5.4, and phyllic zones ASTER Al-OH z +0.9. The leached cap is not separable in ASTER's broad bands. One 2003 scene was rejected for a clipped band.</td></tr>
+<tr><td>EMIT's own mineral library (12 dates)</td><td>Jarosite is identified in the same cells on 3 or more dates 39× more often than chance (1,703 vs 43). Kaolinite and alunite labels never appear in the library output, even where the band depths are strong, so the band-depth method is used for those.</td></tr>
+<tr><td>Coverage</td><td>Retrievals on about 100% of pixels on 11 of 12 dates. It is a hyper-arid desert with no snow and almost no vegetation.</td></tr>
+</tbody></table></div>
+<div class="note"><b>What this measures.</b> The zones map the surface alteration minerals of the porphyry system, the halo around the copper and gold. They don't measure grade. Barrick's published reserves come from drilling: 0.48% Cu and 0.28 g/t Au on its attributable share. The ore sits largely beneath leached caps and alluvium that no satellite sees through.</div>
+
+<h2 id="construction">6 · Construction activity, 2025–26</h2>
+<figure><img src="img/change_chips.jpg" alt="Sentinel-2 before and after chips of construction sites"><figcaption>Sentinel-2 medians, April–August 2025 (top) and June–September 2026 (bottom), at the six largest patches of new bright ground. Left to right: a new airstrip about 1.9 km long; a new linear corridor; new ponds and pads in the north; the south end of the airstrip; new tracks; camp expansion. This matches Barrick's statement that early works began in Q1 2025 with first production targeted for the end of 2028.</figcaption></figure>
+<div class="tw"><table>
+<thead><tr><th>Feature</th><th class="n">Lat °N</th><th class="n">Lon °E</th><th class="n">Area ha</th></tr></thead>
+<tbody>
+<tr><td>Airstrip (north part)</td><td class="n">28.93132</td><td class="n">62.53812</td><td class="n">35.2</td></tr>
+<tr><td>Airstrip (south part)</td><td class="n">28.90409</td><td class="n">62.54728</td><td class="n">19.7</td></tr>
+<tr><td>New corridor</td><td class="n">28.86927</td><td class="n">62.31129</td><td class="n">34.4</td></tr>
+<tr><td>New ponds / pads</td><td class="n">29.05021</td><td class="n">62.48972</td><td class="n">21.8</td></tr>
+<tr><td>Camp expansion</td><td class="n">29.04206</td><td class="n">62.52336</td><td class="n">13.4</td></tr>
+</tbody></table></div>
+<div class="col"><p>Landsat from 1990 to 2026 shows the long exploration history. Around the given point, 3–5% of the ground changes brightness in any given epoch against the 2020 baseline, compared with 0.2–0.4% on the control plain.</p></div>
+
+<h2 id="context">7 · Context</h2>
+<div class="col">
+<p>Reko Diq lies in the Chagai magmatic arc. Mining is planned in two areas. The Western Porphyries pit takes in the H79, H15, H14 and H13 deposits, dated about 12–13 Ma. The Tanjeel pit, about 4 km east, exploits the older H4 centre (about 22–23 Ma). The global resource is reported as 5.9 billion tonnes at 0.41% Cu and 0.22 g/t Au. Barrick's 2025 feasibility study projects 13.1 Mt of copper and 17.9 Moz of gold over a 37-year life. Barrick holds 50%, three Pakistani state enterprises 25%, and the Government of Balochistan 25%. Barrick reports 15 porphyry surface expressions in the lease, 5 of them in the current plan.</p>
+<p>The alteration field mapped here runs mostly west and north-west of the given coordinate, consistent with the Western Porphyries. Matching individual zones to named deposits needs the company's deposit map, which is not public in a georeferenced form.</p>
+</div>
+
+<h2 id="method">8 · Method and limits</h2>
+<div class="col">
+<p><b>Data.</b></p>
+<ul>
+<li>NASA EMIT L2B mineral ID (12 dates, 2022–2024).</li>
+<li>EMIT L2A reflectance: 1 Oct 2023, 1 Oct 2024 and 2 Feb 2025, plus 5 Apr 2023 at partial coverage.</li>
+<li>ASTER AST_07XT (2000–2003).</li>
+<li>Sentinel-2 L2A: 14 scenes, April 2025 – September 2026, tile 41RMN.</li>
+<li>Landsat 5, 7, 8 and 9 (1990–2026).</li>
+<li>Copernicus GLO-30.</li>
+<li>Google Earth Pro, Maxar and Airbus imagery: December 2003, April 2004, August and November 2010, September 2023 and the September 2026 mosaic.</li>
+</ul>
+<p><b>Rules carried over from Bayan Obo, Hatoun and Chitral.</b> A result must repeat across dates, stay clean on control ground and survive an independent test date. A second sensor must confirm it, and Earth-rendered annotation must show it on real terrain.</p>
+<p><b>Limits.</b></p>
+<ul>
+<li>EMIT pixels are 60 m.</li>
+<li>Copper minerals themselves are not detected.</li>
+<li>Drill pads and tracks can brighten the surface locally.</li>
+<li>The given coordinate lies in a modest part of the alteration field, not at its peak.</li>
+<li>Nothing here is an assay or a resource estimate.</li>
+</ul>
+</div>
+
+<h2 id="contact">Contact</h2>
+<div class="contact">
+  <div><b>Dinar Wali</b> · Founder, RegenX.eco · Geospatial Computational Modelling</div>
+  <p class="bio">I build geospatial computational models that measure what the ground is actually doing. I founded RegenX.eco in 2023 to turn open satellite archives into evidence that governments, lenders and developers can act on. We have applied the model to more than 30 sites across Pakistan, the UAE, Nepal and China, and every number ships with its formula, inputs and limits.</p>
+  <div class="row"><span class="eyebrow">Email</span><code id="em">dinar.wali@regenx.eco</code><button class="copy" type="button" data-copy="em">Copy</button></div>
+  <div class="row"><span class="eyebrow">LinkedIn</span><a href="https://www.linkedin.com/in/dinar-wali-621954102/">linkedin.com/in/dinar-wali-621954102</a></div>
+  <div class="row"><span class="eyebrow">Web</span><a href="https://regenx.eco">regenx.eco</a></div>
+</div>
+
+<h2>Sources</h2>
+<ol class="refs">
+<li><a href="https://www.globenewswire.com/news-release/2025/02/06/3021879/0/en/Barrick-Grows-Gold-and-Copper-Reserves-Significantly-Setting-It-Apart-From-Peers-as-It-Positions-for-Growth.html">Barrick 2024 reserves release</a> (6 Feb 2025) and <a href="https://www.dawn.com/news/1900381">Dawn on the updated feasibility study</a>.</li>
+<li><a href="https://im-mining.com/2025/02/27/barrick-details-intended-primary-komatsu-mining-fleet-for-reko-diq/">International Mining</a>: Western Porphyries and Tanjeel pits.</li>
+<li><a href="https://pubs.geoscienceworld.org/segweb/economicgeology/article-abstract/109/7/2003/128669/Temporal-Evolution-of-the-Western-Porphyry-Cu-Au">Temporal evolution of the Western Porphyry Cu-Au systems at Reko Diq</a>, <em>Economic Geology</em> 109(7). Abstract only.</li>
+<li><a href="https://www.semanticscholar.org/paper/Magmatic-evolution-and-genesis-of-the-giant-Reko-Razique/df49616953cc9e8e447822e247f92265cfd723d1">Razique et al., Magmatic evolution of the H14–H15 deposit</a>. Abstract only.</li>
+<li><a href="RekoDiq_RegenX_alteration.kml">Download the alteration KML</a> for Google Earth · <a href="https://github.com/dinarwali4/reko-diq">Code and data on GitHub</a></li>
+<li>Data: NASA EMIT and ASTER (LP DAAC), Copernicus Sentinel-2 and GLO-30, USGS Landsat. Google Earth Pro imagery © Airbus and Maxar Technologies.</li>
+</ol>
+</div>
+<script>
+const Z=[{"facies": "phyllic (sericite)", "cells": 1433, "area_ha": 385.8, "centroid": [29.03682, 62.32769], "dist_given_km": 12.48, "elev": [895, 1105], "id": "RZ1"}, {"facies": "phyllic (sericite)", "cells": 1073, "area_ha": 288.9, "centroid": [29.02936, 62.40842], "dist_given_km": 6.77, "elev": [921, 1044], "id": "RZ2"}, {"facies": "leached cap (jarosite + Fe)", "cells": 499, "area_ha": 134.3, "centroid": [28.99687, 62.38839], "dist_given_km": 5.1, "elev": [875, 923], "id": "RZ3"}, {"facies": "leached cap (jarosite + Fe)", "cells": 447, "area_ha": 120.3, "centroid": [29.01889, 62.37308], "dist_given_km": 7.77, "elev": [902, 966], "id": "RZ4"}, {"facies": "phyllic (sericite)", "cells": 361, "area_ha": 97.2, "centroid": [28.98626, 62.46037], "dist_given_km": 3.15, "elev": [844, 888], "id": "RZ5"}, {"facies": "phyllic (sericite)", "cells": 146, "area_ha": 39.3, "centroid": [29.00787, 62.33262], "dist_given_km": 10.51, "elev": [867, 953], "id": "RZ6"}, {"facies": "phyllic (sericite)", "cells": 110, "area_ha": 29.6, "centroid": [28.9921, 62.38332], "dist_given_km": 5.28, "elev": [876, 893], "id": "RZ7"}, {"facies": "argillic (kaolinite/alunite)", "cells": 104, "area_ha": 28.0, "centroid": [28.99236, 62.35632], "dist_given_km": 7.75, "elev": [854, 890], "id": "RZ8"}, {"facies": "phyllic (sericite)", "cells": 86, "area_ha": 23.2, "centroid": [29.00444, 62.35198], "dist_given_km": 8.62, "elev": [882, 913], "id": "RZ9"}, {"facies": "phyllic (sericite)", "cells": 85, "area_ha": 22.9, "centroid": [28.98323, 62.47306], "dist_given_km": 4.15, "elev": [855, 871], "id": "RZ10"}, {"facies": "phyllic (sericite)", "cells": 73, "area_ha": 19.7, "centroid": [29.04661, 62.3069], "dist_given_km": 14.76, "elev": [965, 999], "id": "RZ11"}, {"facies": "phyllic (sericite)", "cells": 58, "area_ha": 15.6, "centroid": [29.04506, 62.46058], "dist_given_km": 8.55, "elev": [953, 983], "id": "RZ12"}, {"facies": "leached cap (jarosite + Fe)", "cells": 58, "area_ha": 15.6, "centroid": [29.00292, 62.36804], "dist_given_km": 7.15, "elev": [885, 910], "id": "RZ13"}, {"facies": "leached cap (jarosite + Fe)", "cells": 55, "area_ha": 14.8, "centroid": [29.01669, 62.40083], "dist_given_km": 5.83, "elev": [923, 950], "id": "RZ14"}, {"facies": "phyllic (sericite)", "cells": 52, "area_ha": 14.0, "centroid": [28.99254, 62.36594], "dist_given_km": 6.87, "elev": [864, 882], "id": "RZ15"}, {"facies": "argillic (kaolinite/alunite)", "cells": 48, "area_ha": 12.9, "centroid": [28.99875, 62.32492], "dist_given_km": 10.89, "elev": [857, 884], "id": "RZ16"}, {"facies": "phyllic (sericite)", "cells": 46, "area_ha": 12.4, "centroid": [29.00445, 62.42223], "dist_given_km": 3.73, "elev": [882, 892], "id": "RZ17"}, {"facies": "argillic (kaolinite/alunite)", "cells": 40, "area_ha": 10.8, "centroid": [28.99215, 62.3484], "dist_given_km": 8.49, "elev": [857, 878], "id": "RZ18"}, {"facies": "phyllic (sericite)", "cells": 39, "area_ha": 10.5, "centroid": [29.00537, 62.3426], "dist_given_km": 9.5, "elev": [882, 902], "id": "RZ19"}, {"facies": "argillic (kaolinite/alunite)", "cells": 39, "area_ha": 10.5, "centroid": [28.98462, 62.38061], "dist_given_km": 5.24, "elev": [863, 896], "id": "RZ20"}, {"facies": "phyllic (sericite)", "cells": 38, "area_ha": 10.2, "centroid": [29.01003, 62.50407], "dist_given_km": 8.15, "elev": [901, 938], "id": "RZ21"}, {"facies": "leached cap (jarosite + Fe)", "cells": 38, "area_ha": 10.2, "centroid": [29.01368, 62.38879], "dist_given_km": 6.28, "elev": [918, 941], "id": "RZ22"}, {"facies": "leached cap (jarosite + Fe)", "cells": 34, "area_ha": 9.2, "centroid": [28.99935, 62.34384], "dist_given_km": 9.15, "elev": [867, 906], "id": "RZ23"}, {"facies": "leached cap (jarosite + Fe)", "cells": 25, "area_ha": 6.7, "centroid": [29.05533, 62.41807], "dist_given_km": 9.34, "elev": [1001, 1055], "id": "RZ24"}, {"facies": "phyllic (sericite)", "cells": 24, "area_ha": 6.5, "centroid": [29.01979, 62.3705], "dist_given_km": 8.03, "elev": [920, 931], "id": "RZ25"}, {"facies": "phyllic (sericite)", "cells": 21, "area_ha": 5.7, "centroid": [29.01711, 62.43182], "dist_given_km": 5.0, "elev": [909, 916], "id": "RZ26"}, {"facies": "phyllic (sericite)", "cells": 20, "area_ha": 5.4, "centroid": [29.05842, 62.37657], "dist_given_km": 11.01, "elev": [1033, 1054], "id": "RZ27"}, {"facies": "phyllic (sericite)", "cells": 20, "area_ha": 5.4, "centroid": [29.03327, 62.31737], "dist_given_km": 13.11, "elev": [938, 1012], "id": "RZ28"}, {"facies": "argillic (kaolinite/alunite)", "cells": 19, "area_ha": 5.1, "centroid": [28.97504, 62.39862], "dist_given_km": 3.31, "elev": [856, 885], "id": "RZ29"}];
+const tb=document.querySelector('#zt tbody'); let filt='all',sortK='area_ha',dir=-1;
+const cls=f=>f.startsWith('phyllic')?'p-phy':f.startsWith('argillic')?'p-arg':'p-cap';
+function val(z,k){return k==='elev'?z.elev[1]:z[k]}
+function render(){const rows=Z.filter(z=>filt==='all'||z.facies.startsWith(filt)).sort((a,b)=>{const x=val(a,sortK),y=val(b,sortK);return (x>y?1:x<y?-1:0)*dir});
+ tb.innerHTML=rows.map(z=>'<tr><td><b>'+z.id+'</b></td><td><span class="pill '+cls(z.facies)+'">'+z.facies+'</span></td><td class="n">'+z.area_ha.toFixed(1)+'</td><td class="n">'+z.centroid[0].toFixed(5)+'</td><td class="n">'+z.centroid[1].toFixed(5)+'</td><td class="n">'+z.elev[0]+'–'+z.elev[1]+'</td><td class="n">'+z.dist_given_km.toFixed(2)+'</td><td><button class="copy" type="button" data-c="'+z.centroid[0].toFixed(5)+', '+z.centroid[1].toFixed(5)+'">Copy</button></td></tr>').join('');
+ document.getElementById('zcount').textContent=rows.length+' zones'}
+document.querySelectorAll('[data-f]').forEach(b=>b.addEventListener('click',()=>{filt=b.dataset.f;document.querySelectorAll('[data-f]').forEach(x=>x.setAttribute('aria-pressed',x===b));render()}));
+document.querySelectorAll('th button').forEach(b=>b.addEventListener('click',()=>{const k=b.dataset.k;dir=(sortK===k)?-dir:(k==='id'||k==='facies'?1:-1);sortK=k;render()}));
+function sel(t){const s=document.createElement('span');s.textContent=t;document.body.appendChild(s);const r=document.createRange();r.selectNode(s);getSelection().removeAllRanges();getSelection().addRange(r)}
+document.addEventListener('click',e=>{const b=e.target.closest('button.copy');if(!b)return;const t=b.dataset.c||document.getElementById(b.dataset.copy).textContent;
+ try{navigator.clipboard.writeText(t).then(()=>{const o=b.textContent;b.textContent='Copied';setTimeout(()=>b.textContent=o,1200)}).catch(()=>sel(t))}catch(x){sel(t)}});
+render();
+const pairs=[['H1_west_2003-12','H3_west_2026-09','Dec 2003','Sep 2026'],['H2_west_2010-08','H3_west_2026-09','Aug 2010','Sep 2026'],['H1_center_2004-04','H2_center_2010-11','Apr 2004','Nov 2010']];
+const cmp=document.getElementById('cmp'),rng=document.getElementById('cmpRange');
+rng.addEventListener('input',()=>cmp.style.setProperty('--x',rng.value+'%'));
+document.querySelectorAll('[data-pair]').forEach(b=>b.addEventListener('click',()=>{const p=pairs[+b.dataset.pair];document.getElementById('cmpBase').src='img/'+p[0]+'.jpg';document.getElementById('cmpTop').src='img/'+p[1]+'.jpg';document.getElementById('tagL').textContent=p[2];document.getElementById('tagR').textContent=p[3];document.querySelectorAll('[data-pair]').forEach(x=>x.setAttribute('aria-pressed',x===b))}));
+</script>
+
+</body>
+</html>

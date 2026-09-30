@@ -1,0 +1,887 @@
+[
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 1433,
+  "area_ha": 385.8,
+  "centroid": [
+   29.03682,
+   62.32769
+  ],
+  "dist_given_km": 12.48,
+  "elev": [
+   895,
+   1105
+  ],
+  "id": "RZ1"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 1073,
+  "area_ha": 288.9,
+  "centroid": [
+   29.02936,
+   62.40842
+  ],
+  "dist_given_km": 6.77,
+  "elev": [
+   921,
+   1044
+  ],
+  "id": "RZ2"
+ },
+ {
+  "facies": "leached cap (jarosite + Fe)",
+  "cells": 499,
+  "area_ha": 134.3,
+  "centroid": [
+   28.99687,
+   62.38839
+  ],
+  "dist_given_km": 5.1,
+  "elev": [
+   875,
+   923
+  ],
+  "id": "RZ3"
+ },
+ {
+  "facies": "leached cap (jarosite + Fe)",
+  "cells": 447,
+  "area_ha": 120.3,
+  "centroid": [
+   29.01889,
+   62.37308
+  ],
+  "dist_given_km": 7.77,
+  "elev": [
+   902,
+   966
+  ],
+  "id": "RZ4"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 361,
+  "area_ha": 97.2,
+  "centroid": [
+   28.98626,
+   62.46037
+  ],
+  "dist_given_km": 3.15,
+  "elev": [
+   844,
+   888
+  ],
+  "id": "RZ5"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 146,
+  "area_ha": 39.3,
+  "centroid": [
+   29.00787,
+   62.33262
+  ],
+  "dist_given_km": 10.51,
+  "elev": [
+   867,
+   953
+  ],
+  "id": "RZ6"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 110,
+  "area_ha": 29.6,
+  "centroid": [
+   28.9921,
+   62.38332
+  ],
+  "dist_given_km": 5.28,
+  "elev": [
+   876,
+   893
+  ],
+  "id": "RZ7"
+ },
+ {
+  "facies": "argillic (kaolinite/alunite)",
+  "cells": 104,
+  "area_ha": 28.0,
+  "centroid": [
+   28.99236,
+   62.35632
+  ],
+  "dist_given_km": 7.75,
+  "elev": [
+   854,
+   890
+  ],
+  "id": "RZ8"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 86,
+  "area_ha": 23.2,
+  "centroid": [
+   29.00444,
+   62.35198
+  ],
+  "dist_given_km": 8.62,
+  "elev": [
+   882,
+   913
+  ],
+  "id": "RZ9"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 85,
+  "area_ha": 22.9,
+  "centroid": [
+   28.98323,
+   62.47306
+  ],
+  "dist_given_km": 4.15,
+  "elev": [
+   855,
+   871
+  ],
+  "id": "RZ10"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 73,
+  "area_ha": 19.7,
+  "centroid": [
+   29.04661,
+   62.3069
+  ],
+  "dist_given_km": 14.76,
+  "elev": [
+   965,
+   999
+  ],
+  "id": "RZ11"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 58,
+  "area_ha": 15.6,
+  "centroid": [
+   29.04506,
+   62.46058
+  ],
+  "dist_given_km": 8.55,
+  "elev": [
+   953,
+   983
+  ],
+  "id": "RZ12"
+ },
+ {
+  "facies": "leached cap (jarosite + Fe)",
+  "cells": 58,
+  "area_ha": 15.6,
+  "centroid": [
+   29.00292,
+   62.36804
+  ],
+  "dist_given_km": 7.15,
+  "elev": [
+   885,
+   910
+  ],
+  "id": "RZ13"
+ },
+ {
+  "facies": "leached cap (jarosite + Fe)",
+  "cells": 55,
+  "area_ha": 14.8,
+  "centroid": [
+   29.01669,
+   62.40083
+  ],
+  "dist_given_km": 5.83,
+  "elev": [
+   923,
+   950
+  ],
+  "id": "RZ14"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 52,
+  "area_ha": 14.0,
+  "centroid": [
+   28.99254,
+   62.36594
+  ],
+  "dist_given_km": 6.87,
+  "elev": [
+   864,
+   882
+  ],
+  "id": "RZ15"
+ },
+ {
+  "facies": "argillic (kaolinite/alunite)",
+  "cells": 48,
+  "area_ha": 12.9,
+  "centroid": [
+   28.99875,
+   62.32492
+  ],
+  "dist_given_km": 10.89,
+  "elev": [
+   857,
+   884
+  ],
+  "id": "RZ16"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 46,
+  "area_ha": 12.4,
+  "centroid": [
+   29.00445,
+   62.42223
+  ],
+  "dist_given_km": 3.73,
+  "elev": [
+   882,
+   892
+  ],
+  "id": "RZ17"
+ },
+ {
+  "facies": "argillic (kaolinite/alunite)",
+  "cells": 40,
+  "area_ha": 10.8,
+  "centroid": [
+   28.99215,
+   62.3484
+  ],
+  "dist_given_km": 8.49,
+  "elev": [
+   857,
+   878
+  ],
+  "id": "RZ18"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 39,
+  "area_ha": 10.5,
+  "centroid": [
+   29.00537,
+   62.3426
+  ],
+  "dist_given_km": 9.5,
+  "elev": [
+   882,
+   902
+  ],
+  "id": "RZ19"
+ },
+ {
+  "facies": "argillic (kaolinite/alunite)",
+  "cells": 39,
+  "area_ha": 10.5,
+  "centroid": [
+   28.98462,
+   62.38061
+  ],
+  "dist_given_km": 5.24,
+  "elev": [
+   863,
+   896
+  ],
+  "id": "RZ20"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 38,
+  "area_ha": 10.2,
+  "centroid": [
+   29.01003,
+   62.50407
+  ],
+  "dist_given_km": 8.15,
+  "elev": [
+   901,
+   938
+  ],
+  "id": "RZ21"
+ },
+ {
+  "facies": "leached cap (jarosite + Fe)",
+  "cells": 38,
+  "area_ha": 10.2,
+  "centroid": [
+   29.01368,
+   62.38879
+  ],
+  "dist_given_km": 6.28,
+  "elev": [
+   918,
+   941
+  ],
+  "id": "RZ22"
+ },
+ {
+  "facies": "leached cap (jarosite + Fe)",
+  "cells": 34,
+  "area_ha": 9.2,
+  "centroid": [
+   28.99935,
+   62.34384
+  ],
+  "dist_given_km": 9.15,
+  "elev": [
+   867,
+   906
+  ],
+  "id": "RZ23"
+ },
+ {
+  "facies": "leached cap (jarosite + Fe)",
+  "cells": 25,
+  "area_ha": 6.7,
+  "centroid": [
+   29.05533,
+   62.41807
+  ],
+  "dist_given_km": 9.34,
+  "elev": [
+   1001,
+   1055
+  ],
+  "id": "RZ24"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 24,
+  "area_ha": 6.5,
+  "centroid": [
+   29.01979,
+   62.3705
+  ],
+  "dist_given_km": 8.03,
+  "elev": [
+   920,
+   931
+  ],
+  "id": "RZ25"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 21,
+  "area_ha": 5.7,
+  "centroid": [
+   29.01711,
+   62.43182
+  ],
+  "dist_given_km": 5.0,
+  "elev": [
+   909,
+   916
+  ],
+  "id": "RZ26"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 20,
+  "area_ha": 5.4,
+  "centroid": [
+   29.05842,
+   62.37657
+  ],
+  "dist_given_km": 11.01,
+  "elev": [
+   1033,
+   1054
+  ],
+  "id": "RZ27"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 20,
+  "area_ha": 5.4,
+  "centroid": [
+   29.03327,
+   62.31737
+  ],
+  "dist_given_km": 13.11,
+  "elev": [
+   938,
+   1012
+  ],
+  "id": "RZ28"
+ },
+ {
+  "facies": "argillic (kaolinite/alunite)",
+  "cells": 19,
+  "area_ha": 5.1,
+  "centroid": [
+   28.97504,
+   62.39862
+  ],
+  "dist_given_km": 3.31,
+  "elev": [
+   856,
+   885
+  ],
+  "id": "RZ29"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 18,
+  "area_ha": 4.8,
+  "centroid": [
+   29.05797,
+   62.30394
+  ],
+  "dist_given_km": 15.73,
+  "elev": [
+   992,
+   1044
+  ],
+  "id": "RZ30"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 18,
+  "area_ha": 4.8,
+  "centroid": [
+   28.99108,
+   62.37611
+  ],
+  "dist_given_km": 5.88,
+  "elev": [
+   869,
+   881
+  ],
+  "id": "RZ31"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 17,
+  "area_ha": 4.6,
+  "centroid": [
+   29.03822,
+   62.45466
+  ],
+  "dist_given_km": 7.65,
+  "elev": [
+   941,
+   956
+  ],
+  "id": "RZ32"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 17,
+  "area_ha": 4.6,
+  "centroid": [
+   29.0139,
+   62.36828
+  ],
+  "dist_given_km": 7.79,
+  "elev": [
+   912,
+   924
+  ],
+  "id": "RZ33"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 17,
+  "area_ha": 4.6,
+  "centroid": [
+   28.99796,
+   62.4214
+  ],
+  "dist_given_km": 3.07,
+  "elev": [
+   874,
+   879
+  ],
+  "id": "RZ34"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 17,
+  "area_ha": 4.6,
+  "centroid": [
+   28.9954,
+   62.46919
+  ],
+  "dist_given_km": 4.42,
+  "elev": [
+   875,
+   879
+  ],
+  "id": "RZ35"
+ },
+ {
+  "facies": "leached cap (jarosite + Fe)",
+  "cells": 17,
+  "area_ha": 4.6,
+  "centroid": [
+   28.99437,
+   62.36899
+  ],
+  "dist_given_km": 6.66,
+  "elev": [
+   871,
+   882
+  ],
+  "id": "RZ36"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 15,
+  "area_ha": 4.0,
+  "centroid": [
+   29.00835,
+   62.45315
+  ],
+  "dist_given_km": 4.5,
+  "elev": [
+   898,
+   904
+  ],
+  "id": "RZ37"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 14,
+  "area_ha": 3.8,
+  "centroid": [
+   29.02721,
+   62.35111
+  ],
+  "dist_given_km": 10.01,
+  "elev": [
+   951,
+   992
+  ],
+  "id": "RZ38"
+ },
+ {
+  "facies": "argillic (kaolinite/alunite)",
+  "cells": 14,
+  "area_ha": 3.8,
+  "centroid": [
+   28.98782,
+   62.328
+  ],
+  "dist_given_km": 10.33,
+  "elev": [
+   840,
+   846
+  ],
+  "id": "RZ39"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 13,
+  "area_ha": 3.5,
+  "centroid": [
+   29.04006,
+   62.32329
+  ],
+  "dist_given_km": 13.04,
+  "elev": [
+   958,
+   966
+  ],
+  "id": "RZ40"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 12,
+  "area_ha": 3.2,
+  "centroid": [
+   29.0145,
+   62.424
+  ],
+  "dist_given_km": 4.78,
+  "elev": [
+   907,
+   913
+  ],
+  "id": "RZ41"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 12,
+  "area_ha": 3.2,
+  "centroid": [
+   28.99612,
+   62.35688
+  ],
+  "dist_given_km": 7.83,
+  "elev": [
+   881,
+   892
+  ],
+  "id": "RZ42"
+ },
+ {
+  "facies": "argillic (kaolinite/alunite)",
+  "cells": 12,
+  "area_ha": 3.2,
+  "centroid": [
+   28.96613,
+   62.42912
+  ],
+  "dist_given_km": 0.73,
+  "elev": [
+   833,
+   841
+  ],
+  "id": "RZ43"
+ },
+ {
+  "facies": "leached cap (jarosite + Fe)",
+  "cells": 12,
+  "area_ha": 3.2,
+  "centroid": [
+   28.99317,
+   62.406
+  ],
+  "dist_given_km": 3.48,
+  "elev": [
+   868,
+   874
+  ],
+  "id": "RZ44"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 11,
+  "area_ha": 3.0,
+  "centroid": [
+   29.04543,
+   62.35002
+  ],
+  "dist_given_km": 11.43,
+  "elev": [
+   1025,
+   1061
+  ],
+  "id": "RZ45"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 11,
+  "area_ha": 3.0,
+  "centroid": [
+   29.01707,
+   62.4563
+  ],
+  "dist_given_km": 5.51,
+  "elev": [
+   910,
+   915
+  ],
+  "id": "RZ46"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 11,
+  "area_ha": 3.0,
+  "centroid": [
+   29.01175,
+   62.46475
+  ],
+  "dist_given_km": 5.41,
+  "elev": [
+   901,
+   908
+  ],
+  "id": "RZ47"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 8,
+  "area_ha": 2.2,
+  "centroid": [
+   29.03225,
+   62.3545
+  ],
+  "dist_given_km": 10.11,
+  "elev": [
+   975,
+   999
+  ],
+  "id": "RZ48"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 8,
+  "area_ha": 2.2,
+  "centroid": [
+   29.02775,
+   62.31575
+  ],
+  "dist_given_km": 12.94,
+  "elev": [
+   924,
+   932
+  ],
+  "id": "RZ49"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 8,
+  "area_ha": 2.2,
+  "centroid": [
+   29.02369,
+   62.46081
+  ],
+  "dist_given_km": 6.36,
+  "elev": [
+   919,
+   922
+  ],
+  "id": "RZ50"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 8,
+  "area_ha": 2.2,
+  "centroid": [
+   29.0225,
+   62.376
+  ],
+  "dist_given_km": 7.84,
+  "elev": [
+   926,
+   933
+  ],
+  "id": "RZ51"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 8,
+  "area_ha": 2.2,
+  "centroid": [
+   28.9535,
+   62.493
+  ],
+  "dist_given_km": 6.25,
+  "elev": [
+   827,
+   834
+  ],
+  "id": "RZ52"
+ },
+ {
+  "facies": "argillic (kaolinite/alunite)",
+  "cells": 8,
+  "area_ha": 2.2,
+  "centroid": [
+   28.97569,
+   62.39219
+  ],
+  "dist_given_km": 3.94,
+  "elev": [
+   865,
+   874
+  ],
+  "id": "RZ53"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 6,
+  "area_ha": 1.6,
+  "centroid": [
+   29.053,
+   62.34775
+  ],
+  "dist_given_km": 12.19,
+  "elev": [
+   1038,
+   1061
+  ],
+  "id": "RZ54"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 6,
+  "area_ha": 1.6,
+  "centroid": [
+   29.03,
+   62.45625
+  ],
+  "dist_given_km": 6.83,
+  "elev": [
+   930,
+   934
+  ],
+  "id": "RZ55"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 6,
+  "area_ha": 1.6,
+  "centroid": [
+   29.02975,
+   62.496
+  ],
+  "dist_given_km": 8.9,
+  "elev": [
+   940,
+   967
+  ],
+  "id": "RZ56"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 6,
+  "area_ha": 1.6,
+  "centroid": [
+   29.011,
+   62.34275
+  ],
+  "dist_given_km": 9.75,
+  "elev": [
+   915,
+   934
+  ],
+  "id": "RZ57"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 6,
+  "area_ha": 1.6,
+  "centroid": [
+   28.98525,
+   62.3845
+  ],
+  "dist_given_km": 4.9,
+  "elev": [
+   886,
+   888
+  ],
+  "id": "RZ58"
+ },
+ {
+  "facies": "phyllic (sericite)",
+  "cells": 6,
+  "area_ha": 1.6,
+  "centroid": [
+   28.96625,
+   62.4345
+  ],
+  "dist_given_km": 0.67,
+  "elev": [
+   837,
+   842
+  ],
+  "id": "RZ59"
+ }
+]
